@@ -17,7 +17,7 @@ body{
   height: 60px;
   background-color: #97694F;
   color: #fff;
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: bold;
   line-height: 60px;
   text-align: center;
@@ -218,4 +218,89 @@ span{
 a{
   color: #97694F;
   text-decoration: none;
+}
+
+@media (max-width: 500px){
+
+  .title{
+    height: 6vw;
+    line-height: 6vw;
+  }  
+
+  .urna{
+    padding: 3vw;
+  }
+
+  .tela{
+    width: 50vw;
+    height: 60vw;
+  }
+
+  .teclado{
+    margin-left: 3vw;
+  }
+
+  .teclado_botao{
+    width: 10vw;
+    height: 6vw;
+  }
+
+  .botao_branco{
+    font-size: 2vw;
+  }
+
+  .botao_corrige{
+    font-size: 2vw;
+  }
+
+  .botao_confirma{
+    font-size: 1.9vw;
+    width: 12vw;
+    height: 8vw;
+  }
+
+  span{
+    font-size: 2.7vw;
+  }
+
+  .numero{
+    width: 4vw;
+    height: 4.5vw;
+    line-height: 4.5vw;
+    font-size: 3vw;
+  }
+
+  .d1_2{
+    justify-content: left;
+  }
+
+  .d1_4{
+    height: 3vw;
+    line-height: 5vw;
+    font-size: 2.6vw;
+  }
+
+  .d1_right{
+    width: 16vw;
+  }
+
+    .d2{
+      height: 11vw;
+      font-size: 2.3vw;
+      line-height: 3vw;
+      border-top: 2px solid black;
+      padding-left: 2.5vw;
+      padding-top: 2.5vw;
+    }
+
+    .aviso_grande{
+      font-size: 4vw;
+      margin-left: 9vw;
+    }
+
+    .aviso_grande_1{
+      font-size: 4.5vw;
+      margin-left: 9vw;
+    }
+
 }
