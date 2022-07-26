@@ -6,11 +6,24 @@
 
 body{
   margin: 0;
-  padding-top: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  height: 60px;
+  background-color: #97694F;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  width: 100vw;
+  padding-top: 5px;
+  margin-bottom: 10px;
 }
 
 .urna{
@@ -56,27 +69,38 @@ body{
 .botao_branco{
   background-color: #fff;
   color: #000;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 10%;
 }
 
 .botao_corrige{
   background-color: #f09046;
   color: #000;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 10%;
 }
 
 .botao_confirma{
   background-color: #48c079;
   color: #000;
   font-size: 15px;
+  font-weight: bold;
   width: 90px;
   height: 50px;
+  border-radius: 10%;
 
 }
 
 .d1{
   flex: 1;
   display: flex;
+}
+
+span{
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .d1_left{
@@ -155,4 +179,43 @@ body{
   font-size: 14px;
   border-top: 2px solid black;
   padding-left: 10px;
+}
+
+.aviso_grande{
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.aviso_grande_1{
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.aviso_gigante{
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a{
+  color: #97694F;
+  text-decoration: none;
 }
