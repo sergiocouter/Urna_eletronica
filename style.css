@@ -270,12 +270,17 @@ a{
     font-size: 3vw;
   }
 
+  .d1_1{
+    height: 5vw;
+  }
+
   .d1_2{
+    height: 8vw;
     justify-content: left;
   }
 
   .d1_4{
-    height: 3vw;
+    height: 2vw;
     line-height: 5vw;
     font-size: 2.6vw;
   }
@@ -286,11 +291,15 @@ a{
 
     .d2{
       height: 11vw;
-      font-size: 2.3vw;
+      font-size: 2.0vw;
       line-height: 3vw;
       border-top: 2px solid black;
       padding-left: 2.5vw;
-      padding-top: 2.5vw;
+      padding-top: 0vw;
+    }
+
+    .d1_imagem{
+      font-size: 2vw;
     }
 
     .aviso_grande{
@@ -299,8 +308,13 @@ a{
     }
 
     .aviso_grande_1{
-      font-size: 4.5vw;
+      font-size: 4vw;
       margin-left: 9vw;
+    }
+
+    .d1_imagem.small{
+      width: 70%;
+      font-size: 2vw;
     }
 
 }
